@@ -10,7 +10,7 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 public class ExcelFileR {
 
 	public static void main(String[] args) throws Exception {
-		File filename= new File("C:\\Users\\cheem\\eclipse-workspace\\Excel File\\ExcelPOI.xlsx");
+		File filename= new File("Excel file Path .xlsx");
 		//Load the file
 		FileInputStream LoadFile= new FileInputStream(filename);
 		// Load workbook
